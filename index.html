@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de Gean</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<script>
+  
+  function redirecionarPagina() {
+      // Redireciona para a página desejada
+      window.location.href = "login.html";
+    }
+
+
+</script>
+
+
+<body>
+    <ul>
+        <li><a href="#" >Contato</a></li>
+        <li><a href="#" >Carrinho</a></li >
+          
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#"class="active">Home</a></li>
+      </ul><br>
+      <div class="search-container"><form>
+        <input type="text" placeholder="Pesquisar">
+        <button type="submit">Buscar</button>
+        <img src="sem fundo.png" alt="nome da loja" align="left">
+      </form></div>
+      
+<br><br><br>
+<center><h1 > O QUE VOCÊ DESEJA?</h1></center>
+      <div class="circles">
+        
+        <img src="ma1.jpg" alt="Imagem 1" class="circle" usemap="#mapa">
+        <img src="sap1.jpg" alt="Imagem 2" class="circle" usemap="#mapa2">
+        <img src="to1.jpg" alt="Imagem 3" class="circle"usemap="#mapa3">
+      </div>
+      <map name="mapa">
+        <area shape="rect" coords="0,0,100,100" href="#macacão">
+     </map>
+     <map name="mapa2">
+      <area shape="rect" coords="0,0,100,100" href="#sapato">
+   </map>
+   <map name="mapa3">
+    <area shape="rect" coords="0,0,100,100" href="#to">
+ </map>
+     <br><br><br><br><br><br><br>
+    <center><h1 id="macacão">MACACÕES:</h1></center>
+    <br><br><br>
+    <div class="container">
+      <div class="produto">
+        <img src="imagem 1.png" alt="Produto 1"><BR><BR>
+        <p>MACACÃO INFANTIL MASCULINO</p>
+        <p>R$ 39,99</p><br>
+        <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+      </div>
+      <div class="produto">
+        <img src="imagem 2.jpg" alt="Produto 2"><BR>
+          <p>MACACÃO INFANTIL MASCULINO</p>
+        <p>R$ 49,99</p><br>
+        <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+      </div>
+      <div class="produto">
+        <img src="imagem 3.jpg" alt="Produto 3"><BR><BR>
+          <p>MACACÃO INFANTIL FEMININO</p>
+        <p>R$ 39,99</p><br>
+        <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+      </div>
+      <div class="produto">
+        <img src="imagem 4.jpg" alt="Produto 4"><BR><BR><BR><BR>
+          <p>MACACÃO INFANTIL FEMININO</p>
+        <p>R$ 49,99</p><br>
+        <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+      </div>
+      <div class="produto">
+        <img src="imagem 5.jpg" alt="Produto 5"><BR><BR>
+          <p>MACACÃO INFANTIL MASCULINO</p>
+        <p>R$ 59,99</p><br>
+        <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+      </div>
+ 
+    </div>
+
+   <br><br><br><br><br><br>
+   <center><h1 id="sapato">SAPATINHOS:</h1></center>
+   <br><br><br>
+   <div class="container">
+    <div class="imagem">
+    <img src="sapato1.jpg" alt="Imagem 1">
+     <p>SAPATO INFANTIL FEMININO</p>
+     <p>R$ 59,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="imagem">
+     <img src="sapato2.png" alt="Imagem 2">
+     <p>SAPATO INFANTIL FEMININO</p>
+     <p>R$ 49,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="imagem">
+     <img src="sapato3.jpg" alt="Imagem 3">
+     <p>SAPATO INFANTIL FEMININO</p>
+     <p>R$ 69,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="imagem">
+     <img src="sapato4.jpg" alt="Imagem 4">
+     <p>SAPATO INFANTIL MASCULINO</p>
+     <p>R$ 59,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="imagem">
+     <img src="sapato5.jpg" alt="Imagem 5">
+     <p>SAPATO INFANTIL MASCULINO</p>
+     <p>R$ 39,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+
+  </div>
+
+  <br><br><br><br><br><br>
+   <center><h1 id="to">TOUCAS E LUVAS:</h1></center>
+   <br><br><br>
+   <div class="container">
+    <div class="touca">
+     <img src="touca1.jpg" alt="Imagem 1">
+     <p>TOUCA INFANTIL UNISSEX</p>
+     <p>R$ 29,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="touca">
+     <img src="touca2.jpg" alt="Imagem 2">
+     <p>TOUCA INFANTIL FEMININO</p>
+     <p>R$ 19,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="touca">
+     <img src="touca3.jpg" alt="Imagem 3">
+     <p>TOUCA INFANTIL FEMININO</p>
+     <p>R$ 19,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="touca">
+     <img src="touca4.jpg" alt="Imagem 4">
+     <p>TOUCA INFANTIL UNISSEX</p>
+     <p>R$ 19,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+    <div class="touca">
+     <img src="touca5.jpg" alt="Imagem 5">
+     <p>TOUCA INFANTIL FEMININO</p>
+     <p>R$ 29,99</p><br>
+     <button class="botão" onclick="redirecionarPagina()">COMPRAR</button>
+    </div>
+  </div>
+
+<br><br><br><br><br><br><br><br><br><br>
+      <div class="loja">
+       <center><h2>FIQUE POR DENTRO</h2></center>
+       <center><h2>Das novidades, promoções e lançamentos</h2></center>
+       <center><h3><a href="https://www.instagram.com/lukbekka/" target="_blank"><img src="icons8-instagram-32.png"></a>
+      <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F557141113268&e=AT1yRRlvF_snyMIbDgMHuuAF2Na0vsQLeE8fV_7cHypUKWloiG0ZUQjj1lJLbdRd0FoMQI2VymcgldpcSqD4fqal09ahYHru" target="_blank"><img src="icons8-whatsapp-30.png"></a>
+        </h3></center>
+
+      </div>
+</body>
+</html>
+
+

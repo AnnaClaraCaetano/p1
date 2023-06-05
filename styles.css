@@ -1,0 +1,190 @@
+h1{
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 70;
+  color:rgb(15, 15, 15);
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #10a75b;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #c4e0de;
+  }
+  
+  .active {
+    background-color: #b4c93a;
+  }
+  
+  .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+  
+  
+  }
+  .img {
+    width: 100%;
+    height: auto;
+ }
+
+ .fotos img {
+    width: 20%;
+    height: auto;
+    float: left;
+ }
+
+ .loja{
+  color:#f1fdff;
+  background-color:#10a75b;
+  width: 100%;
+  height: 200px;
+ }
+ .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  color: #8c918e;
+}
+
+.search-container form {
+  margin-right: 20px;
+  margin: 0%;
+}
+
+.search-container input[type="text"] {
+  padding: 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.search-container button {
+  padding: 20px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #10a75b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-container img {
+  width: 40%;
+  height: 70%;
+  margin-bottom: 0%;
+  align-items: baseline ;
+}
+.container {
+  overflow: hidden;
+}
+
+.produto {
+  width: 18%;
+  margin-right: 2%;
+  float: left;
+  text-align: center;
+}
+
+.produto img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.produto p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.produto:last-child {
+  margin-right: 0;
+}
+.imagem {
+  width: 18%;
+  margin-right: 2%;
+  float: left;
+  text-align: center;
+}
+
+.imagem img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.imagem p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.imagem:last-child {
+  margin-right: 0;
+}
+.touca {
+  width: 18%;
+  margin-right: 2%;
+  float: left;
+  text-align: center;
+}
+
+.touca img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.touca p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.touca:last-child {
+  margin-right: 0;
+}
+
+div.imagem {
+  width: 230px;
+  display: inline-block;
+}
+.botão{
+  background-color: #4CAF50; 
+  border: none; color: white;
+   padding: 15px 32px; 
+   text-align: center; 
+   text-decoration: none;
+    display: inline-block;
+     font-size: 16px;
+      margin: 4px 2px;
+       cursor: pointer;
+        border-radius: 8px;
+  }

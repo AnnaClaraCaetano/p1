@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <link rel="stylesheet" type="text/css" href="styles2.css">
+ 
+    <title>LOGIN</title>
+    <script>
+        function login() {
+          var nomeUsuario = document.getElementById("nomeUsuario").value;
+          var senha = document.getElementById("senha").value;
+    
+          var cadastro = JSON.parse(localStorage.getItem('cadastro'));
+    
+          if (cadastro && cadastro.nomeUsuario === nomeUsuario && cadastro.senha === senha) {
+            alert("Login bem-sucedido!");
+          } else {
+            alert("Nome de usuário ou senha inválidos.");
+          }
+        }
+      </script>
+</head>
+<body>
+    <section class="fundo"><br><br><br><br><br><br><br>
+   <center> <div class = "vamos">
+
+    <form>
+        <img src="sem fundo.png" height="100px" width="100px">
+        <br>
+        <label for="nomeUsuario"></label>
+        <input type="text" id="nomeUsuario" placeholder="Seu e-mail" required><br>
+    
+        <label for="senha"></label>
+        <input type="password" id="senha" placeholder="Sua senha" required><br>
+    
+        <input type="submit" value="Login" onclick="login()"><br><br>
+       
+       Ainda não tem conta? <a href="cadastro.html">criar aqui</a>
+      </form></div></center>
+      
+    </section> 
+
+
+    
+</body>
+</html>
